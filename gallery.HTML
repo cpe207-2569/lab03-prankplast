@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: black;
+            color: white;
+        }
+
+        .gallery-card {
+            width: 18rem;
+        }
+
+        .gallery-img {
+            height: 220px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container py-5">
+
+        <!-- Title -->
+        <h1 class="text-center mb-5">MY PORTFOLIO</h1>
+
+        <!-- Navigation -->
+        <div class="d-flex justify-content-center gap-4 mb-5">
+            <a href="index.html" class="btn btn-light">Home</a>
+            <a href="exp.html" class="btn btn-light">Favorites</a>
+            <a href="gallery.html" class="btn btn-light">Gallery</a>
+            <a href="contact.html" class="btn btn-light">Contact Me</a>
+        </div>
+
+        <h2 class="text-center mb-5">My Gallery</h2>
+
+        <!-- Gallery -->
+        <div class="d-flex flex-wrap justify-content-center gap-4">
+
+            <!-- Card 1 -->
+            <div class="card gallery-card bg-dark text-white border-light">
+                <img src="images/beachheart.jpg" class="card-img-top gallery-img" alt="Travel">
+                <div class="card-body">
+                    <h5 class="card-title">Beach Heart</h5>
+                    <p class="card-text">
+                        A Heart drawn in the sand at the beach in Samut Sakhon.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="card gallery-card bg-dark text-white border-light">
+                <img src="images/nachos.jpg" class="card-img-top gallery-img" alt="Food">
+                <div class="card-body">
+                    <h5 class="card-title">Nachos</h5>
+                    <p class="card-text">
+                        Tried some delicious nachos at a local market.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="card gallery-card bg-dark text-white border-light">
+                <img src="images/pattaya.jpg" class="card-img-top gallery-img" alt="Cafe">
+                <div class="card-body">
+                    <h5 class="card-title">Pattaya</h5>
+                    <p class="card-text">
+                        View of Pattaya Beach captured on a nearby hill.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="card gallery-card bg-dark text-white border-light">
+                <img src="images/frienddog.jpg" class="card-img-top gallery-img" alt="Gaming">
+                <div class="card-body">
+                    <h5 class="card-title">Friend's Dog</h5>
+                    <p class="card-text">
+                        Spending time with my friend and their cute dog.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
